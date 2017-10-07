@@ -1,0 +1,27 @@
+{
+  "name": "dentalevent",
+  "version": "1.0.0",
+  "description": "Event Scheduling App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch app.js"
+  },
+  "author": "Adeel Khilji",
+  "license": "ISC",
+  "dependencies": {
+    "angular2-fullcalendar": "^1.0.19",
+    "bluebird": "*",
+    "body-parser": "*",
+    "bootstrap": "^4.0.0-alpha.6",
+    "cors": "*",
+    "ejs": "*",
+    "express": "*",
+    "jquery": "^3.2.1",
+    "mongoose": "4.7.2",
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
